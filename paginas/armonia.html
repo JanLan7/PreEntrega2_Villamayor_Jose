@@ -4,17 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clases Gratis</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../stilo.css">
 </head>
 <body>
-    <header>
+    <header class="pb-0">
         <h1>Armonía</h1>
-        <nav>
+
+        <!-- navegadores -->
+        <div>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                 
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                       
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="..\paginas\teoria.html">Teoría</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="..\paginas\armonia.html">Armonía</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="..\paginas\composicion.html">Composición</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="..\paginas\arreglos.html">Arreglos</a>
+                      </li>  
+                    </ul>
+                </div>
+              </div>
+            </nav>
+      </div>
+
+
+        <!-- <nav>
             <a href="..\paginas\teoria.html">Teoría</a>
             <a href="..\paginas\armonia.html">Armonía</a>
             <a href="..\paginas\composicion.html">Composición</a>
             <a href="..\paginas\arreglos.html">Arreglos</a>
-        </nav>
+        </nav> -->
     </header>
     <main>
         <a href="../index.html">Volver a la pagina principal</a><br><br><br><br>
@@ -45,7 +79,7 @@
         <p>El II- (II-7) sobre el 5 de la tonalidad y el IV (IVmaj7) sobre el 5 de la tonalidad pueden ser vistos como estructuras de acordes derivadas de la estructura extendida del V7(sus4).</p>
         <img src="../multimedias/movimientodefundamentales10.jpg" alt="" class="small-image">
     </main>
-    <footer>
+    <!-- <footer>
         <a href="../index.html">Volver a la página principal</a>
         <p>Contacto: idiomajanlan@gmail.com</p>
         <p><a href="privacidad.html">Política de Privacidad</a> | <a href="terminos.html">Términos de Uso</a></p>
@@ -56,6 +90,46 @@
         </p>
         <p>Teléfono: +595 992 888555</p>
         <p>Dirección: Calle de las Llanas 2023, Asunción, Paraguay</p>
+    </footer> -->
+    <footer class="bg-black text-white py-4">
+        <a href="../index.html">Volver a la pagina principal</a><br><br><br><br>
+        <div class="container"> <!-- Añadido container -->
+            <div class="row justify-content-center"> <!-- Añadido justify-content-center -->
+                <!-- Información de contacto -->
+                <div class="col-md-4 mb-3 text-center"> <!-- Añadido text-center -->
+                    <h5 class="mb-3">Contacto</h5>
+                    <p class="mb-1"><i class="bi bi-envelope-fill me-2"></i>idiomajanlan@gmail.com</p>
+                    <p class="mb-1"><i class="bi bi-telephone-fill me-2"></i>+595 992 888555</p>
+                </div>
+    
+                <!-- Redes sociales -->
+                <div class="col-md-4 mb-3 text-center"> <!-- Añadido text-center -->
+                    <h5 class="mb-3">Síguenos</h5>
+                    <div class="d-flex flex-column align-items-center gap-3"> <!-- Añadido align-items-center -->
+                        <a href="https://www.facebook.com/jose.gaspar.villamayor/" target="_blank" class="text-decoration-none">
+                            <div class="d-flex align-items-center text-white hover-effect">
+                                <i class="bi bi-facebook fs-5"></i>
+                                <span class="ms-2">Facebook</span>
+                            </div>
+                        </a>
+                        <a href="https://x.com/JosVillamayor5" target="_blank" class="text-decoration-none">
+                            <div class="d-flex align-items-center text-white hover-effect">
+                                <i class="bi bi-twitter-x fs-5"></i>
+                                <span class="ms-2">Twitter</span>
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/josevillamayor.jazz/" target="_blank" class="text-decoration-none">
+                            <div class="d-flex align-items-center text-white hover-effect">
+                                <i class="bi bi-instagram fs-5"></i>
+                                <span class="ms-2">Instagram</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

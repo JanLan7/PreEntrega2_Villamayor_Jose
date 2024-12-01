@@ -141,3 +141,15 @@ h2{
         font-size: 0.85em;
     }
 }
+
+/* Carrousel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 1.5rem;    
+    height: 1.5rem;  
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;        
+}
